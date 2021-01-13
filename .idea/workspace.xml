@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31398e36-dbac-4179-82e4-9fc9cd8eebbe" name="Default Changelist" comment="" />
+    <list default="true" id="31398e36-dbac-4179-82e4-9fc9cd8eebbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mkfBjchDZq65OisGCzdvV3V8pr" />
   <component name="ProjectViewState">
@@ -37,11 +42,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610042375609</updated>
-      <workItem from="1610042376648" duration="3612000" />
+      <workItem from="1610042376648" duration="4570000" />
+      <workItem from="1610477008792" duration="188000" />
+      <workItem from="1610477263246" duration="210000" />
+      <workItem from="1610477512621" duration="1901000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-860" y="274" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610477318407">
+      <screen x="-1080" y="-402" width="1080" height="1880" />
+    </state>
+    <state x="-860" y="274" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1080.-402.1080.1880@-1080.-402.1080.1880" timestamp="1610477318407" />
   </component>
 </project>
