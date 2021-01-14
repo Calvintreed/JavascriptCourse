@@ -31,20 +31,24 @@
 // }
 
 // The Switch Statement
+// let day = 'Monday'
+//
+// if (day==='Monday'){
+//   console.log('Plan Course Structure')
+//   console.log('Go to Coding Meetup')
+// } else if (day === 'Tuesday'){
+//   console.log('Prepare Theory Videos')
+// } else if (day === 'Wednesday' || day === 'Thursday') {
+//   console.log('Write Code Example')
+// } else if (day === 'Friday') {
+//   console.log('Record Videos')
+// } else if (day === 'Saturday' || day === 'Sunday'){
+//   console.log('Enjoy the weekend :D')
+// } else {
+//   console.log('Not a valid day!')
+// }
 
-let day = 'Monday'
-
-if (day==='Monday'){
-  console.log('Plan Course Structure')
-  console.log('Go to Coding Meetup')
-} else if (day === 'Tuesday'){
-  console.log('Prepare Theory Videos')
-} else if (day === 'Wednesday' || day === 'Thursday') {
-  console.log('Write Code Example')
-} else if (day === 'Friday') {
-  console.log('Record Videos')
-} else if (day === 'Saturday' || day === 'Sunday'){
-  console.log('Enjoy the weekend :D')
-} else {
-  console.log('Not a valid day!')
-}
+// Coding Challenge 4
+let bill = 100
+  let tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${bill+tip}`)

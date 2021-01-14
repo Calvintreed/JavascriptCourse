@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31398e36-dbac-4179-82e4-9fc9cd8eebbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding Challenge 1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Coding Challenge 1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +47,11 @@
       <workItem from="1610477008792" duration="188000" />
       <workItem from="1610477263246" duration="210000" />
       <workItem from="1610477512621" duration="1901000" />
-      <workItem from="1610559739445" duration="4131000" />
+      <workItem from="1610559739445" duration="6686000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-860" y="274" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610477318407">
-      <screen x="-1080" y="-402" width="1080" height="1880" />
-    </state>
-    <state x="-860" y="274" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1080.-402.1080.1880@-1080.-402.1080.1880" timestamp="1610477318407" />
   </component>
 </project>
