@@ -48,7 +48,28 @@
 //   console.log('Not a valid day!')
 // }
 
-// Coding Challenge 4
-let bill = 100
-  let tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${bill+tip}`)
+// // Coding Challenge 4
+// let bill = 100
+//   let tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${bill+tip}`)
+
+`use strict`;
+// Coding Challenge # 1 (or 5)
+const calcAverage = (a, b, c) => (a + b +c) / 3;
+
+const dolphinsAverage = calcAverage(44, 23 , 71)
+const koalasAverage = calcAverage(65, 54, 49)
+
+function checkWinner () {
+  if (dolphinsAverage >= 2 * koalasAverage){
+    console.log(`Dolphins win (${dolphinsAverage} vs ${koalasAverage})`)
+  }
+  else if (koalasAverage >= 2 * dolphinsAverage) {
+    console.log(`Koalas win (${koalasAverage} vs ${dolphinsAverage}`)
+  }
+  else{
+    console.log(`Nobody wins!`)
+  }
+}
+
+console.log(checkWinner())
