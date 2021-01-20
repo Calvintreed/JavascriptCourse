@@ -55,21 +55,41 @@
 
 `use strict`;
 // Coding Challenge # 1 (or 5)
-const calcAverage = (a, b, c) => (a + b +c) / 3;
-
-const dolphinsAverage = calcAverage(44, 23 , 71)
-const koalasAverage = calcAverage(65, 54, 49)
-
-function checkWinner () {
-  if (dolphinsAverage >= 2 * koalasAverage){
-    console.log(`Dolphins win (${dolphinsAverage} vs ${koalasAverage})`)
-  }
-  else if (koalasAverage >= 2 * dolphinsAverage) {
-    console.log(`Koalas win (${koalasAverage} vs ${dolphinsAverage}`)
-  }
-  else{
-    console.log(`Nobody wins!`)
-  }
-}
-
-console.log(checkWinner())
+// const calcAverage = (a, b, c) => (a + b +c) / 3;
+//
+// const dolphinsAverage = calcAverage(44, 23 , 71)
+// const koalasAverage = calcAverage(65, 54, 49)
+//
+// function checkWinner () {
+//   if (dolphinsAverage >= 2 * koalasAverage){
+//     console.log(`Dolphins win (${dolphinsAverage} vs ${koalasAverage})`)
+//   }
+//   else if (koalasAverage >= 2 * dolphinsAverage) {
+//     console.log(`Koalas win (${koalasAverage} vs ${dolphinsAverage}`)
+//   }
+//   else{
+//     console.log(`Nobody wins!`)
+//   }
+// }
+//
+// console.log(checkWinner())
+//
+//
+// const friends = ['Michael', 'Steven', 'Peter'];
+//
+// //add Elements
+// const newLength = friends.push('Jay');
+// console.log(friends)
+//
+// friends.unshift('John');
+// console.log(friends)
+//
+// // Remove Elements
+// friends.pop(); // Last Element
+// const popped = friends.pop()
+// console.log(popped)
+//
+// friends.shift(); //First Element
+//
+// console.log(friends.indexOf('Steven'));
+// console.log(friends.includes('Steven'));
