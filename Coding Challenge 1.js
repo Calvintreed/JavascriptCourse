@@ -106,33 +106,56 @@
 // console.log(bills, tips, totals);
 
 // Coding Challenge #3 (or 6)
+//
+// let john = {
+//   fullName: 'John Smith',
+//   Mass: 92,
+//   Height: 1.95,
+//   calcBMI: function () {
+//     this.bmi = this.Mass / (this.Height * this.Height);
+//     return this.bmi;
+//   }
+// };
+//
+// let mark = {
+//   fullName:'Mark Miller',
+//   Mass: 78,
+//   Height:1.69,
+//
+//   calcBMI: function () {
+//     this.bmi = this.Mass / (this.Height * this.Height)
+//     return this.bmi
+//   }
+// };
+//
+// john.calcBMI()
+// mark.calcBMI()
+//
+// if (mark.bmi>john.bmi){
+//   console.log(`${john.fullName} BMI (${john.bmi} is higher than ${mark.fullName}'s (${mark.bmi})!`)
+// } else if (john.bmi>mark.bmi){
+//   console.log(`${mark.fullName} BMI (${mark.bmi} is higher than ${john.fullName}'s (${john.bmi})!`)
+// }
 
-let john = {
-  fullName: 'John Smith',
-  Mass: 92,
-  Height: 1.95,
-  calcBMI: function () {
-    this.bmi = this.Mass / (this.Height * this.Height);
-    return this.bmi;
-  }
-};
+//For loop keeps running while condition is TRUE
+// for (let rep = 1; rep <= 10; rep = rep++) {
+//   console.log(`Lifting weights repetition ${rep}`)
+// }
 
-let mark = {
-  fullName:'Mark Miller',
-  Mass: 78,
-  Height:1.69,
+const jonas = [
+  `Jonas`,
+  `Schmedtmann`,
+  2037 - 1991,
+  `teacher`,
+  [`Michael`,`Peter`,`Steven`]
+];
+const types = [];
 
-  calcBMI: function () {
-    this.bmi = this.Mass / (this.Height * this.Height)
-    return this.bmi
-  }
-};
+for (let i = 0; i < jonas.length; i++){
+  //Reading from Jonas Array
+  console.log(jonas[i], typeof jonas[i]);
 
-john.calcBMI()
-mark.calcBMI()
-
-if (mark.bmi>john.bmi){
-  console.log(`${john.fullName} BMI (${john.bmi} is higher than ${mark.fullName}'s (${mark.bmi})!`)
-} else if (john.bmi>mark.bmi){
-  console.log(`${mark.fullName} BMI (${mark.bmi} is higher than ${john.fullName}'s (${john.bmi})!`)
+   // Filling types array
+  // types[i]= typeof jonas[i]
+  types.push(typeof jonas[i])
 }
