@@ -142,20 +142,85 @@
 //   console.log(`Lifting weights repetition ${rep}`)
 // }
 
-const jonas = [
-  `Jonas`,
-  `Schmedtmann`,
-  2037 - 1991,
-  `teacher`,
-  [`Michael`,`Peter`,`Steven`]
-];
-const types = [];
+// const jonas = [
+//   `Jonas`,
+//   `Schmedtmann`,
+//   2037 - 1991,
+//   `teacher`,
+//   [`Michael`,`Peter`,`Steven`]
+// ];
+// const types = [];
+//
+// for (let i = 0; i < jonas.length; i++){
+//   //Reading from Jonas Array
+//   console.log(jonas[i], typeof jonas[i]);
+//
+//    // Filling types array
+//   // types[i]= typeof jonas[i]
+//   types.push(typeof jonas[i])
+// }
+//
+// const years = [1991, 2007, 1969, 2020];
+// const ages = [];
+//
+// for (let i = 0; i < years.length; i++){
+//   ages.push(2037 - years[i]);
+// }
+//
+// // Continue & Break
+// console.log('Only strings')
+// for (let i = 0; i < jonas.length; i++){
+//   if (typeof jonas[i] !== 'string') continue;
+//   console.log(jonas[i], typeof jonas[i]);
+// }
+// console.log('Break with Number')
+// for (let i = 0; i < jonas.length; i++){
+//   if (typeof jonas[i] === 'number') break;
+//   console.log(jonas[i], typeof jonas[i]);
+// }
 
-for (let i = 0; i < jonas.length; i++){
-  //Reading from Jonas Array
-  console.log(jonas[i], typeof jonas[i]);
+// Looping Backwards
+// const jonas = [
+//   `Jonas`,
+//   `Schmedtmann`,
+//   2037 - 1991,
+//   `teacher`,
+//   [`Michael`,`Peter`,`Steven`]
+// ];
+//
+// for (let i = jonas.length - 1; i >= 0; i--){
+//   console.log(jonas[i]);
+// }
+//
+// Loops in Loops
+// for (let exercise = 1; exercise < 4; exercise++){
+//   console.log(`------- Starting Exercise ${exercise}`)
+//
+//   for (let rep = 1; rep < 6; rep++){
+//     console.log(`Lifting weights repetition ${rep}`)
+//   }
+// }
+//
+// //While loops without Counter
+//
+// let dice = math.trunc(math.random() * 6) + 1;
+//
+// while (dice !== 6){
+//   console.log(`You rolled a ${dice}`);
+//   dice= Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6) console.log(`Loop is about to end...`);
+// }
 
-   // Filling types array
-  // types[i]= typeof jonas[i]
-  types.push(typeof jonas[i])
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill *0.2;
+const bills = [22, 295, 176, 440, 37, 105,10, 1100,86,52];
+const tips = [];
+const totals = [];
+
+for (let i = 0; i<bills.length, i++;){
+  const tip = calcTip(bills[i]);
+  tips.push(tip);
+  totals.push(tip + bills[i]);
+ }
 }
+
