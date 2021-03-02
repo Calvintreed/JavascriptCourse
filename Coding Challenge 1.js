@@ -211,16 +211,74 @@
 //   if (dice === 6) console.log(`Loop is about to end...`);
 // }
 
-const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill *0.2;
-const bills = [22, 295, 176, 440, 37, 105,10, 1100,86,52];
-const tips = [];
-const totals = [];
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill *0.2;}
+// const bills = [22, 295, 176, 440, 37, 105,10, 1100,86,52];
+// const tips = [];
+// const totals = [];
+//
+// for (let i = 0; i<bills.length; i++){
+//   const tip = calcTip(bills[i]);
+//   tips.push(tip);
+//   totals.push(tip + bills[i]);
+//  }
+//
+// const calcAverage = function (arr){
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum = sum + arr[i];
+//   }
+//   return sum / arr.length;
+// }
 
-for (let i = 0; i<bills.length, i++;){
-  const tip = calcTip(bills[i]);
-  tips.push(tip);
-  totals.push(tip + bills[i]);
- }
+// const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
+//
+// const calcTempAmplitude = function (temps){
+//   let max = temps[0];
+//   let min = temps[0]
+//
+//   for(let i=0; i <temps.length; i++){
+//     const curTemp = temps[i]
+//     if (typeof curTemp !== 'number') continue;
+//     if (curTemp > max) max = curTemp;
+//     if (curTemp > min) min = curTemp;
+//   }
+//   return max - min;
+// };
+// const amplitude = calcTempAmplitude(temperatures)
+// console.log(amplitude)
+//
+// const measureKelvin = function (){
+//   const measurement = {
+//     type: 'temp',
+//     unit: 'celsius',
+//     value: Number(prompt('Degrees Celsius:')),
+//   }
+//
+//   const kelvin = measurement.value + 273;
+//   return kelvin;
+// }
+// // A) Identify
+// console.log(measureKelvin());
+
+//Coding Challenge #1 for Developer Skills
+//Calvin Hardcoded Answer
+// const arr = [17,21,23]
+// const printForecast = function (arr) {
+//   console.log(`...${arr[0]} in 1 days...${arr[1]} in 2 days...${arr[2]} in 3 days...`)
+// }
+// const forecast = printForecast(arr)
+// console.log(forecast)
+
+//Instructor Answer
+const data1 = [17,21,23];
+const data2 = [12, 5, -5, 0, 4];
+
+const printForecast = function (arr){
+  let str = '';
+  for(let i=0; i<arr.length; i++){
+    str += str + `${arr[i]} in ${i+1} days...`;
+  }
+  console.log('...' + str);
 }
-
+printForecast(data1)
